@@ -1,9 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
-img {
-    border-radius: 50% ; /*bo tròn ảnh*/
-    width: 150 px ; /*chieu rong*/
-    height: 150px ; /*chieu cao*/
-    border: 2px solid blue; /* Viền màu xanh */
-    margin-bottom: 15px;    /* Cách phần tên 15px */
+body{
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.card{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 40px auto;
+}
+
+
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    color: darkblue;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.job{
+    color: gray;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
+.info p{
+    padding: 12px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+
+.skills{
+    margin: 20px 0;
+}
+
+.skill{
+    display: inline-block;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 30px;
+    padding: 8px 18px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    width: 120px;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.follow{
+    background-color: blue;
+    color: white;
+}
+
+
+.message{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
 }
