@@ -1,0 +1,9 @@
+
+
+img {
+    border-radius: 50% ; /*bo tròn ảnh*/
+    width: 150 px ; /*chieu rong*/
+    height: 150px ; /*chieu cao*/
+    border: 2px solid blue; /* Viền màu xanh */
+    margin-bottom: 15px;    /* Cách phần tên 15px */
+}
