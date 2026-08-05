@@ -1,0 +1,84 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+    padding:50px;
+}
+
+h1{
+    margin-bottom:40px;
+    color:#333;
+}
+
+/* Flexbox */
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* Card */
+.card{
+    width:300px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    padding:30px 20px;
+    transition:0.4s;
+}
+
+.icon{
+    font-size:70px;
+    color:#ff6600;
+    margin-bottom:20px;
+    transition:0.4s;
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#333;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+button{
+    padding:10px 25px;
+    border:none;
+    border-radius:8px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.4s;
+}
+
+/* Hover */
+.card:hover{
+    background:#007bff;
+    color:white;
+    transform:translateY(-10px);
+}
+
+.card:hover h2,
+.card:hover p{
+    color:white;
+}
+
+.card:hover .icon{
+    color:yellow;
+}
+
+.card:hover button{
+    background:#ff6600;
+}
